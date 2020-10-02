@@ -1,0 +1,26 @@
+{
+    "name": "ferb/press-framework",
+    "type": "library",
+    "description": "Laravel package for mapping exception FAQ pages.",
+    "homepage": "https://github.com/Whyounes/laravel-faq-exceptions",
+    "license": "MIT",
+    "require": {
+
+    },
+    "require-dev": {
+        "pds/skeleton": "~1.0",
+        "phpunit/phpunit": "^9.3",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ferb\\Iterators\\": "src/",
+            "Ferb\\Iterators\\Tests\\":  "tests/"
+        }
+    },
+    "bin": ["bin/PressFramework"],
+    "scripts": {
+        "test":"php ./vendor/phpunit/phpunit/phpunit",
+        "fix-all":"php ./vendor/friendsofphp/php-cs-fixer/php-cs-fixer fix --config .php_cs"
+    }
+}

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cef4c058-598a-4a85-82b1-5405cce1901d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/PressFramework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/PostTypes/Insights/InsighsForUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/src/PostTypes/Insights/InsightPostType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/ContainerDefinitions/RepoDefinition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/Dbs/DbFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/Dbs/IDbFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/Dbs/IMetaDb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/Dbs/IWpDbTables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/Dbs/IWpQueryProps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/PostTypes/Any/AnyPostType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/PostTypes/ISchema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repos/PostTypes/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configs/IConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plugins/Contexts/IContextSource.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plugins/Contexts/IContextSource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plugins/Contexts/RequestContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plugins/Contexts/RequestContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Dbs/MetaDb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/IRepo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/IRepo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/PostTypes/IPostType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/PostTypes/IPostType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/PostTypes/Mappers/Schema.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/BinaryExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/BinaryExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/BuilderParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/BuilderParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/ExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/ExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/ExpressionBuilderException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/ExpressionBuilderException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/FieldExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/FieldExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/SingleExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/SingleExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Builders/ValueExpressionBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/ValueExpressionBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Expressions/BinaryExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/BinaryExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Expressions/Expression.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/Expression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Expressions/FieldExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/FieldExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Expressions/ValueExpression.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Expressions/ValueExpression.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/AuthorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/ExpressionTransformationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Transforms/ExpressionTransformationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/ExtractTransformBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Transforms/ExtractTransformBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/ITransformQueries.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Queries/Transforms/ITransformQueries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/InPlaceQueryTransform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/MetakeyAliasTransform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/AuthorExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/CategoryExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/DateExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/ExtractTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/MetaqueryExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/PostExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/TagExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Transforms/Rewriters/TaxonomyExtractorTransformation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Wrapper/IWpQuery.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Dbs/IWpQuery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Queries/Wrapper/WpQueryWrapper.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repos/Repo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repos/Repo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Components/ChildComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Components/ChildComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Components/Component.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Components/Component.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Components/ComponentFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Components/IChildComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Components/IChildComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Components/IComponent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Components/IComponent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Components/IComponentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Components/IComponentFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Shortcodes/ComponentShortcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Shortcodes/ComponentShortcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Shortcodes/HasContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Shortcodes/HasContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Shortcodes/IHaveContent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Shortcodes/IHaveContent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Shortcodes/IShortcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Shortcodes/IShortcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Shortcodes/ShortcodeRegistratorAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Shortcodes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Shortcodes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Templates/ITemplateEngine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Templates/ITemplateEngine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Templates/ITemplatePathResolver.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Templates/TemplateConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Templates/TemplateConfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Templates/TemplateEngine.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Templates/TemplateEngine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Templates/TemplateNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Templates/TemplateNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/Templates/TemplateResolutionException.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/pds/skeleton" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/php-di/invoker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/php-di/phpdoc-reader" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/php-di/php-di" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1hNLboXTfQA4a9uwuL9oXKwSzZx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Repos/Dbs" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ode\Ferb\PressFramework\src\Repos\Dbs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ode\Ferb\PressFramework\src\Repos\Queries\Expressions" />
+      <recent name="C:\ode\Ferb\PressFramework\src\Repos" />
+      <recent name="C:\ode\Ferb\PressFramework\src\Repos\Dbs" />
+      <recent name="C:\ode\Ferb\PressFramework\src\Repos\Queries\Wrapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cef4c058-598a-4a85-82b1-5405cce1901d" name="Default Changelist" comment="" />
+      <created>1599846678456</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599846678456</updated>
+      <workItem from="1599846680434" duration="3416000" />
+      <workItem from="1599856179694" duration="18762000" />
+      <workItem from="1600092704956" duration="918000" />
+      <workItem from="1600185876484" duration="3781000" />
+      <workItem from="1600259264243" duration="3306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="575" y="95" key="#com.intellij.ide.util.MemberChooser" timestamp="1600260365920">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="95" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600260365920" />
+    <state x="311" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600189128883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="311" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1600189128883" />
+    <state x="500" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600188091599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600188091599" />
+    <state x="512" y="183" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#" timestamp="1599848289921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="512" y="183" key="#com.jetbrains.php.refactoring.extract.interface.PhpExtractInterfaceDialog#/0.0.1536.824@0.0.1536.824" timestamp="1599848289921" />
+    <state x="571" y="277" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0" timestamp="1599869432988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="277" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0/0.0.1536.824@0.0.1536.824" timestamp="1599869432988" />
+    <state x="532" y="136" key="NewPhpClassDialog" timestamp="1600260043861">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="532" y="136" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1600260043861" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1599848145024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599848145024" />
+    <state x="613" y="174" key="refactoring.ChangeSignatureDialog" timestamp="1599849000394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="613" y="174" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1599849000394" />
+    <state x="426" y="189" key="run.anything.popup" timestamp="1600188181365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="426" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600188181365" />
+  </component>
+</project>
