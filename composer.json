@@ -1,8 +1,8 @@
 {
     "name": "ferb/iterators",
     "type": "library",
-    "description": "Laravel package for mapping exception FAQ pages.",
-    "homepage": "https://github.com/Whyounes/laravel-faq-exceptions",
+    "description": "A linq-like iterator utility class with a fluent interface",
+    "homepage": "https://github.com/jeff-becker-projekt202/FerbFluentIterator",
     "license": "MIT",
     "require": {
 
